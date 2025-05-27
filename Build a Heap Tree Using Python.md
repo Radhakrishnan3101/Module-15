@@ -5,6 +5,7 @@ Aim
 To write a Python program to build and evaluate the given expression tree.
 
 Algorithm
+
 ```
 Start the program.
 Create nodes for operators and operands.
@@ -15,7 +16,10 @@ Else, recursively evaluate the left and right subtrees.
 Apply the operator at the current node to the results.
 Return the final result from the root node.
 End the program.
+```
 Program
+
+```
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
@@ -63,4 +67,5 @@ OUTPUT
 
 
 RESULT
+
 Thus the python program was initialised and executed successfully.
